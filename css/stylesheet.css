@@ -1,0 +1,57 @@
+body {
+    /*background-color: rgb(55, 64, 67); */
+    background-image: url(https://media1.tenor.com/m/B2S75qxm07UAAAAd/jo-bonten-i-can-put-my-hand-through-it.gif);
+    background-size: 100px;
+  }
+  
+  h1 {
+    color: #f40891;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+  }
+  
+  p {
+    color:white;
+    font-family: verdana;
+    font-size: 20px;
+    background-color: orange;
+  }
+
+  p#intro {
+    background-color: #f40891;
+  }
+
+
+
+  img {
+    align-items: center;
+  }
+
+  img.dikkevetterand {
+    border: 10px dashed black;
+  }
+
+  iframe.dikkevetterand {
+    border: 10px dashed black;
+  }
+
+  /* The animation code */
+@keyframes example {
+  0%   {background-color:pink; left:0px; top:0px;}
+  25%  {background-color:rgb(233, 233, 126); left:200px; top:0px;}
+  50%  {background-color:#f40891; left:200px; top:200px;}
+  75%  {background-color:rgb(251, 255, 129); left:0px; top:200px;}
+  100% {background-color:rgb(255, 0, 221); left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+h1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: rgb(229, 246, 106);
+  animation-name: example;
+  animation-duration: 4s;
+}
